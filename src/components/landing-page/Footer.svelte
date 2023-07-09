@@ -1,6 +1,6 @@
 <script lang="ts">
   import Text from "../typography/Text.svelte";
-  import HashtypeLogo from "../icons/HashtypeLogo.svelte";
+  import Logo from "../icons/Logo.svelte";
   import ThemeSwitcher from "../buttons/ThemeSwitcher.svelte";
   import Link from "../navigation/Link.svelte";
 
@@ -64,7 +64,7 @@
       class="w-full flex flex-col justify-between sm:justify-center items-center gap-8"
     >
       <div class="w-12 aspect-square text-sky-100" title="App icon goes here">
-        <HashtypeLogo />
+        <Logo />
       </div>
       <ThemeSwitcher size="medium" />
     </div>
@@ -100,7 +100,7 @@
       class="w-full max-w-5xl p-4 flex flex-col gap-2 sm:flex-row sm:justify-between"
     >
       <Text as="legend"
-        >&copy; Copyright 2023, Hashtype. All Rights Reserved</Text
+        >&copy; Copyright 2023, Story Writer. All Rights Reserved</Text
       >
       <Text as="legend">Made with passion, SvelteKit, and DaisyUI</Text>
     </div>

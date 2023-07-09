@@ -1,6 +1,6 @@
 <script lang="ts">
   import Text from "../typography/Text.svelte";
-  import HashtypeLogo from "../icons/HashtypeLogo.svelte";
+  import Logo from "../icons/Logo.svelte";
   import LinkButton from "../buttons/LinkButton.svelte";
 </script>
 
@@ -15,10 +15,10 @@
   <div class="w-full max-w-5xl flex justify-between items-center">
     <div class="flex justify-center items-center gap-2">
       <div class="w-6 aspect-square text-sky-500 dark:text-slate-200">
-        <HashtypeLogo />
+        <Logo />
       </div>
       <div class="hidden sm:inline text-slate-800 dark:text-slate-200">
-        <Text as="h6">Hashtype</Text>
+        <Text as="h6">Story writer</Text>
       </div>
     </div>
     <div class="flex justify-center items-center gap-4">

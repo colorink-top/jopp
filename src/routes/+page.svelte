@@ -4,7 +4,6 @@
   import Link from "../components/navigation/Link.svelte";
   import Text from "../components/typography/Text.svelte";
   import LinkButton from "../components/buttons/LinkButton.svelte";
-  import ArrowLeftIcon from "../components/icons/ArrowLeftIcon.svelte";
 
   interface Feature {
     name: string;
