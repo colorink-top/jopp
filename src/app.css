@@ -1,0 +1,80 @@
+@import "@fontsource/inter";
+@import "@fontsource/montserrat";
+@import "@fontsource/mononoki";
+@import "@fontsource/material-icons-round";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.material-icons-rounded {
+  font-family: "Material Icons Round";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smootihng: grayscale;
+  font-feature-settings: "liga";
+}
+
+.material-icons-rounded.small {
+  font-size: 20px;
+}
+
+.material-icons-rounded.medium {
+  font-size: 32px;
+}
+
+.material-icons-rounded.large {
+  font-size: 40px;
+}
+
+.material-icons-rounded.extra-large {
+  font-size: 48px;
+}
