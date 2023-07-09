@@ -40,7 +40,7 @@
 </script>
 
 <svelte:head>
-  <title>Hashtype: A Minimal Markdown Text Editor</title>
+  <title>Just One Page PDF</title>
 </svelte:head>
 
 <div>
@@ -55,15 +55,14 @@
           class="w-full min-w-[320px] max-w-lg flex flex-col items-center gap-8 text-center"
         >
           <div class="flex flex-col gap-4">
-            <Text as="h1">The Minimal Markdown Text Editor</Text>
-            <Text as="p"
-              >Have fewer distractions with this ultra-minimalist text editor
-              for greater productivity
+            <Text as="h1">Just One Page PDF</Text>
+            <Text as="p">
+               Save the entire webpage as a one-page PDF.
             </Text>
           </div>
           <LinkButton
             link="/demo"
-            textLabel="Start Demo"
+            textLabel="Install for free"
             endIcon="chevron_right"
             variant="primary"
             size="large"
@@ -102,7 +101,7 @@
         </div>
         <LinkButton
           link="/demo"
-          textLabel="Start Demo"
+          textLabel="Install for free"
           endIcon="chevron_right"
           variant="primary"
           size="large"

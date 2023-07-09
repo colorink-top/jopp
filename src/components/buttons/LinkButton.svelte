@@ -54,12 +54,12 @@
   class={`btn ${buttonSize} ${buttonVariant} ${fullWidth ? "btn-block" : null}`}
 >
   {#if startIcon !== null}
-    <span class="material-icons-rounded">{startIcon}</span>
+    <img width=16 src="Google_Chrome_icon.svg"/>
   {/if}
   <div class={`${textAlign}`}>
     <span>{textLabel}</span>
   </div>
   {#if endIcon !== null}
-    <span class="material-icons-rounded">{endIcon}</span>
+    <img width=16 src="Google_Chrome_icon.svg"/>
   {/if}
 </a>
