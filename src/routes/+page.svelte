@@ -12,29 +12,29 @@
 
   const features: Feature[] = [
     {
-      name: "Interface",
+      name: "One Page PDF",
       description:
-        "A minimal distraction-free user interface to maximize your productivity",
+        "one-page PDF for entire webpage",
     },
     {
-      name: "Themes",
+      name: "Multiple Page PDF",
       description:
-        "Beautiful light and dark themes with matching syntax highlighting to boot",
+        "multiple-page PDF for entire webpage",
     },
     {
-      name: "Shortcuts",
+      name: "Custom Page Size",
       description:
-        "Amazingly configurable keyboard shortcuts to have all your commands right at your fingertips",
+        "support custom paper size, eg. window size, A4, A3, Letter and so on",
     },
     {
-      name: "Search",
+      name: "Scalebale, Printable",
       description:
-        "Advanced searching capability with search filters and document tags",
+        "screenshot, but PDF format.",
     },
     {
-      name: "Sync",
+      name: "Multiple Tabs Batch Export",
       description:
-        "Google Drive, Dropbox, Microsoft OneDrive, and/or your favorite cloud storage service",
+        "export PDF with multiple tabs  at one time",
     },
   ];
 </script>
@@ -61,7 +61,7 @@
             </Text>
           </div>
           <LinkButton
-            link="/demo"
+            link="https://chrome.google.com/webstore/detail/just-one-page-pdf/fgbhbfdgdlojklkbhdoilkdlomoilbpl?hl=en"
             textLabel="Install for free"
             endIcon="chevron_right"
             variant="primary"
@@ -100,7 +100,7 @@
           {/each}
         </div>
         <LinkButton
-          link="/demo"
+          link="https://chrome.google.com/webstore/detail/just-one-page-pdf/fgbhbfdgdlojklkbhdoilkdlomoilbpl?hl=en"
           textLabel="Install for free"
           endIcon="chevron_right"
           variant="primary"
