@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   export let link: string = "/";
   export let size: "small" | "medium" | "large" = "small";
   export let variant:
@@ -54,12 +55,12 @@
   class={`btn ${buttonSize} ${buttonVariant} ${fullWidth ? "btn-block" : null}`}
 >
   {#if startIcon !== null}
-    <img width=16 src="Google_Chrome_icon.svg" alt=""/>
+    <img width=16 src="{base}/Google_Chrome_icon.svg" alt=""/>
   {/if}
   <div class={`${textAlign}`}>
     <span>{textLabel}</span>
   </div>
   {#if endIcon !== null}
-    <img width=16 src="Google_Chrome_icon.svg" alt=""/>
+    <img width=16 src="{base}/Google_Chrome_icon.svg" alt=""/>
   {/if}
 </a>
