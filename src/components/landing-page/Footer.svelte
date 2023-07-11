@@ -12,7 +12,7 @@
       class="w-full max-w-5xl p-4 flex flex-col gap-2 sm:flex-row sm:justify-between"
     >
       <Text as="legend"
-        >&copy; Copyright 2023, Story Writer. All Rights Reserved</Text
+        >&copy; Copyright 2023, snw. All Rights Reserved</Text
       >
       <Text as="legend">Made with passion</Text>
     </div>

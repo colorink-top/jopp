@@ -18,7 +18,7 @@
         <Logo />
       </div>
       <div class="hidden sm:inline text-slate-800 dark:text-slate-200">
-        <Text as="h6">Story writer</Text>
+        <Text as="h6">snw</Text>
       </div>
     </div>
     <div class="flex justify-center items-center gap-4">
