@@ -73,7 +73,7 @@
           title="Just One Page PDF"
           style="outline: 3px solid;"
         >
-        <img src="/hero.png" style="object-fit: none;"/>
+        <img src="/hero.png" style="object-fit: none;" alt=""/>
         </div>
       </div>
     </section>

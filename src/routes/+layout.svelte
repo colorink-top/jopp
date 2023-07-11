@@ -1,7 +1,7 @@
 <script lang="ts">
   import { browser } from "$app/environment";
   import "../app.css";
-  import logo from "$lib/images/hashtype-logo.png";
+  import logo from "$lib/images/logo.png";
 
   // TODO: Solve bug causing light mode to not work correctly
   let isDarkMode: boolean = false;
