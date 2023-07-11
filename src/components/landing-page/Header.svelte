@@ -23,12 +23,6 @@
     </div>
     <div class="flex justify-center items-center gap-4">
       <nav class="flex justify-center items-center gap-4">
-        <LinkButton
-          link="/demo"
-          textLabel="Start Demo"
-          size="small"
-          variant="primary"
-        />
       </nav>
     </div>
   </div>

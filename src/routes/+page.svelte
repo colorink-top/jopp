@@ -70,8 +70,11 @@
         </div>
         <div
           class="transition w-full min-w-[320px] max-w-xl aspect-video bg-slate-500/20 rounded-2xl overflow-hidden"
-          title="Hero image goes here"
-        />
+          title="Just One Page PDF"
+          style="outline: 3px solid;"
+        >
+        <img src="/hero.png" style="object-fit: none;"/>
+        </div>
       </div>
     </section>
     <section
