@@ -4,6 +4,7 @@
   import Link from "../components/navigation/Link.svelte";
   import Text from "../components/typography/Text.svelte";
   import LinkButton from "../components/buttons/LinkButton.svelte";
+  import { base } from '$app/paths';
 
   interface Feature {
     name: string;
@@ -73,7 +74,7 @@
           title="Just One Page PDF"
           style="outline: 3px solid;"
         >
-        <img src="./hero.png" style="object-fit: none;" alt=""/>
+        <img src="{base}/hero.png" style="object-fit: none;" alt=""/>
         </div>
       </div>
     </section>
